@@ -1,0 +1,55 @@
+<hmtl>
+<head>
+<style>
+ *{
+	margin:0px;
+	padding:0px; 
+ }
+ 
+ ul{
+ 	list-style:none;
+ 	overflow:hidden;
+ 	text-align:center;
+ 	background-color:black;
+ }
+ ul li{
+ 	display:inline-block;
+ }
+ ul li a{
+ 	
+ 	padding:20px;	
+ 	display:inline-block;
+ 	text-decoration:none;
+ }
+ .drop-down{
+ 	position:absolute;
+ 	
+ }
+ .drop-down a{
+ 	display:none;
+ 	background-color:black;	
+ }
+ .drop:hover .drop-down a{
+ 	display:block;
+ }
+ .drop-down a:hover{
+ 	background-color:green;
+ }
+</style>
+</head>
+<body>
+
+	<ul>
+	<li class="drop"><a href="#">Home</a>
+		<div class="drop-down">
+			<a href="#">home1</a>	
+			<a href="#">home1</a>	
+		</div>
+	
+	</li>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Home</a></li>
+	</ul>
+</body>
+</html>
